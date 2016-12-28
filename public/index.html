@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Moody</title>
+
+    <!-- bower:css -->
+    <!-- endinject -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="app/mSliderComponent/mSlider.css">
+    <link rel="stylesheet" href="app/entryPage/entryPage.css">
+    <link rel="stylesheet" href="app/mainComponent/main.css">
+    <link rel="stylesheet" href="app/naviComponent/navi.css">
+    <link rel="stylesheet" href="app/mSliderComponent/slide/slide.css">
+    <link rel="stylesheet" href="app/mSliderComponent/slide/handle/handle.css">
+    <link rel="stylesheet" href="app.css">
+    <!-- endinject -->
+
+  </head>
+  <body ng-app="app">
+    <!--<h1>Hello World!</h1>
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.-->
+    <main-component></main-component>
+    <script>require('electron-connect').client.create()</script>
+
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <script src="app/app.module.js"></script>
+    <script src="app/mSliderComponent/slide/handle/handle.component.js"></script>
+    <script src="app/mSliderComponent/slide/slide.component.js"></script>
+    <script src="app/naviComponent/navi.component.js"></script>
+    <script src="app/mainComponent/main.component.js"></script>
+    <script src="app/entryPage/entryPage.component.js"></script>
+    <script src="app/mSliderComponent/mSlider.component.js"></script>
+    <script src="app/moodMatrix.js"></script>
+    <script src="app/app.config.js"></script>
+    <!-- endinject -->
+
+  </body>
+</html>

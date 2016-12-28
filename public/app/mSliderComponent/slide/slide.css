@@ -1,0 +1,30 @@
+.actual-slider{
+	/*border: 1px solid black;*/
+	/*background: green;*/
+	/*border-radius: 3px;*/
+	/*color:lime;*/
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	z-index: 2;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */    
+}
+.actual-slider .stripe-holder{
+	height: 100%;
+	/*border: 1px solid green;*/
+	margin-top:-26px;
+}
+.actual-slider .stripe-holder .stripe{
+	/*border: 1px solid rgba(0,0,128,.24);*/
+	height:  10%;
+}
+
+.actual-slider .stripe-holder .stripe .vertical-stripe{
+	border: 2px solid black;
+	width: 0;
+	height: 100%;
+	margin: 0 auto;
+}

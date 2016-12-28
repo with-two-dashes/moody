@@ -1,0 +1,14 @@
+.navi{
+	display: flex;
+}
+
+.navi .item{
+	border: 1px solid black;
+	flex-grow: 1;
+	text-align: center;
+	cursor: pointer;
+}
+
+.navi .item.selected{
+	background: yellow;
+}

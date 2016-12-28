@@ -1,0 +1,25 @@
+<div class="slider">
+	<div class="name">{{$ctrl.name}}</div>
+	<div class="main-content">
+		<div class="half">
+			<div class="value">{{(100 - $ctrl.value)/10}}</div>
+			<div class="slide-holder">
+				<slide value="$ctrl.value"></slide>
+			</div>
+		</div>
+		<div class="half">
+			<div class="data">
+				<div class="label">Average</div>
+				<div class="value">{{($ctrl.avg / 10.0)|number:2}}</div>
+			</div>
+			<div class="data">
+				<div class="label">Prev. Day</div>
+				<div class="value">{{$ctrl.prevDay / 10}}</div>
+			</div>
+			<div class="data">
+				<div class="label"># Entries</div>
+				<div class="value">{{$ctrl.total}}</div>
+			</div>
+		</div>
+	</div>
+</div>

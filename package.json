@@ -1,0 +1,32 @@
+{
+  "name": "moody",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reload": "live-reload app --port 30080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/with-two-dashes/moody.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/with-two-dashes/moody/issues"
+  },
+  "homepage": "https://github.com/with-two-dashes/moody#readme",
+  "dependencies": {
+    "electron": "^1.4.13"
+  },
+  "devDependencies": {
+    "electron-connect": "^0.6.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-watch": "^4.3.11",
+    "live-reload": "^1.1.0",
+    "main-bower-files": "^2.13.1"
+  }
+}

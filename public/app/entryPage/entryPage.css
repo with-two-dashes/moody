@@ -1,0 +1,15 @@
+section.entry-page{
+	box-sizing: border-box;
+	border:1px solid red;
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+section.entry-page .sliders{
+	display: flex;
+	flex-direction: row;
+	border:1px solid green;
+	overflow: auto;
+	overflow-y: hidden;
+	flex-grow: 1;
+	flex-shrink: 0;
+}

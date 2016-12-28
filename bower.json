@@ -1,0 +1,20 @@
+{
+  "name": "public",
+  "homepage": "https://github.com/with-two-dashes/moody",
+  "authors": [
+    "Victor Lawrence <goodnovember@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}
